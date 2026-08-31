@@ -1,0 +1,27 @@
+# Compilados — se regeneran con "bubblewrap build", no hace falta versionarlos
+*.apk
+*.aab
+*.ap_
+*.dex
+/build/
+/app/build/
+.gradle/
+
+# Configuración local — rutas de tu máquina (SDK, JDK), no portable a otro equipo
+local.properties
+
+# El keystore — CRÍTICO: nunca en Git, ni en un repo privado.
+# Guárdalo aparte, en un sitio con copia de seguridad (gestor de
+# contraseñas, disco cifrado...), nunca dentro de este repositorio.
+*.keystore
+*.jks
+android.keystore
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
