@@ -66,3 +66,7 @@ cambio de colores del manifest), hay que:
 No hace falta tocar nada aquí si el cambio es solo de contenido dentro de la app (una
 tarea nueva, un mensaje de chat...) — eso ya lo sirve la PWA en tiempo real, como
 cualquier página web.
+
+## Licencia
+
+ISC — ver [LICENSE](./LICENSE).
